@@ -1,0 +1,16 @@
+[web]
+labX.example.com
+
+[db]
+serverb.example.com
+
+[test]
+server[01:10].example.com
+
+[wordpress:children]
+web
+db
+
+[server]
+blueX.example.com
+greenX.example.com
